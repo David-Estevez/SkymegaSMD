@@ -1,0 +1,393 @@
+EESchema Schematic File Version 2  date Mon 10 Mar 2014 17:32:05 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Monolito-1_2
+LIBS:skymegaSMD-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Skymega-SMD"
+Date "10 mar 2014"
+Rev "0.1"
+Comp "David Estévez Fernández"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA328P-A IC?
+U 1 1 531DE8C2
+P 2350 2250
+F 0 "IC?" H 1600 3500 40  0000 L BNN
+F 1 "ATMEGA328P-A" H 2750 850 40  0000 L BNN
+F 2 "TQFP32" H 2350 2250 30  0000 C CIN
+F 3 "~" H 2350 2250 60  0000 C CNN
+	1    2350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAA3
+P 5250 1250
+F 0 "SERVO_?" H 4900 1350 60  0000 C CNN
+F 1 "JP_3" H 5330 1180 60  0001 C CNN
+F 2 "" H 5250 1250 60  0000 C CNN
+F 3 "" H 5250 1250 60  0000 C CNN
+	1    5250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAA9
+P 5250 2600
+F 0 "SERVO_?" H 4900 2650 60  0000 C CNN
+F 1 "JP_3" H 5330 2530 60  0001 C CNN
+F 2 "" H 5250 2600 60  0000 C CNN
+F 3 "" H 5250 2600 60  0000 C CNN
+	1    5250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAAF
+P 5250 1750
+F 0 "SERVO_?" H 4900 1850 60  0000 C CNN
+F 1 "JP_3" H 5330 1680 60  0001 C CNN
+F 2 "" H 5250 1750 60  0000 C CNN
+F 3 "" H 5250 1750 60  0000 C CNN
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAB5
+P 5250 2200
+F 0 "SERVO_?" H 4900 2300 60  0000 C CNN
+F 1 "JP_3" H 5330 2130 60  0001 C CNN
+F 2 "" H 5250 2200 60  0000 C CNN
+F 3 "" H 5250 2200 60  0000 C CNN
+	1    5250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 531DEABB
+P 5150 2850
+F 0 "#PWR?" H 5150 2850 30  0001 C CNN
+F 1 "GND" H 5150 2780 30  0001 C CNN
+F 2 "" H 5150 2850 60  0000 C CNN
+F 3 "" H 5150 2850 60  0000 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+Text Label 5850 1350 2    60   ~ 0
+A5
+Text Label 6200 1000 2    60   ~ 0
+SERVO_PWR_0
+Text Label 5850 1800 2    60   ~ 0
+A4
+Text Label 5850 2250 2    60   ~ 0
+A3
+Text Label 5850 2650 2    60   ~ 0
+A2
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAC6
+P 6900 1250
+F 0 "SERVO_?" H 6550 1350 60  0000 C CNN
+F 1 "JP_3" H 6980 1180 60  0001 C CNN
+F 2 "" H 6900 1250 60  0000 C CNN
+F 3 "" H 6900 1250 60  0000 C CNN
+	1    6900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEACC
+P 6900 2600
+F 0 "SERVO_?" H 6550 2650 60  0000 C CNN
+F 1 "JP_3" H 6980 2530 60  0001 C CNN
+F 2 "" H 6900 2600 60  0000 C CNN
+F 3 "" H 6900 2600 60  0000 C CNN
+	1    6900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAD2
+P 6900 1750
+F 0 "SERVO_?" H 6550 1800 60  0000 C CNN
+F 1 "JP_3" H 6980 1680 60  0001 C CNN
+F 2 "" H 6900 1750 60  0000 C CNN
+F 3 "" H 6900 1750 60  0000 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L JP_3 SERVO_?
+U 1 1 531DEAD8
+P 6900 2200
+F 0 "SERVO_?" H 6550 2300 60  0000 C CNN
+F 1 "JP_3" H 6980 2130 60  0001 C CNN
+F 2 "" H 6900 2200 60  0000 C CNN
+F 3 "" H 6900 2200 60  0000 C CNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 531DEADE
+P 6800 2850
+F 0 "#PWR?" H 6800 2850 30  0001 C CNN
+F 1 "GND" H 6800 2780 30  0001 C CNN
+F 2 "" H 6800 2850 60  0000 C CNN
+F 3 "" H 6800 2850 60  0000 C CNN
+	1    6800 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7500 1350 2    60   ~ 0
+A1
+Text Label 7850 1000 2    60   ~ 0
+SERVO_PWR_1
+Text Label 7500 1800 2    60   ~ 0
+A0
+Text Label 7500 2250 2    60   ~ 0
+D10
+Text Label 7500 2650 2    60   ~ 0
+D9
+Text Notes 4600 3000 0    60   ~ 0
+Servo Connectors x12
+$Comp
+L C C?
+U 1 1 531DEAEA
+P 7700 1400
+F 0 "C?" H 7700 1500 40  0000 L CNN
+F 1 "1uF" H 7706 1315 40  0000 L CNN
+F 2 "~" H 7738 1250 30  0000 C CNN
+F 3 "~" H 7700 1400 60  0000 C CNN
+	1    7700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 531DEAF0
+P 7700 1650
+F 0 "#PWR?" H 7700 1650 30  0001 C CNN
+F 1 "GND" H 7700 1580 30  0001 C CNN
+F 2 "" H 7700 1650 60  0000 C CNN
+F 3 "" H 7700 1650 60  0000 C CNN
+	1    7700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 531DEAF6
+P 6100 1450
+F 0 "C?" H 6100 1550 40  0000 L CNN
+F 1 "1uF" H 6106 1365 40  0000 L CNN
+F 2 "~" H 6138 1300 30  0000 C CNN
+F 3 "~" H 6100 1450 60  0000 C CNN
+	1    6100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 531DEAFC
+P 6100 1700
+F 0 "#PWR?" H 6100 1700 30  0001 C CNN
+F 1 "GND" H 6100 1630 30  0001 C CNN
+F 2 "" H 6100 1700 60  0000 C CNN
+F 3 "" H 6100 1700 60  0000 C CNN
+	1    6100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1250 5150 1250
+Wire Wire Line
+	5150 1250 5150 1850
+Wire Wire Line
+	5150 1850 5150 2300
+Wire Wire Line
+	5150 2300 5150 2700
+Wire Wire Line
+	5150 2700 5150 2850
+Wire Wire Line
+	5250 2600 5250 2700
+Wire Wire Line
+	5250 2700 5150 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5250 2200 5250 2300
+Wire Wire Line
+	5250 2300 5150 2300
+Connection ~ 5150 2300
+Wire Wire Line
+	5250 1750 5250 1850
+Wire Wire Line
+	5250 1850 5150 1850
+Connection ~ 5150 1850
+Wire Wire Line
+	5350 1250 5350 1400
+Wire Wire Line
+	5600 1400 5350 1400
+Wire Wire Line
+	5600 1000 5600 1150
+Wire Wire Line
+	5600 1150 5600 1400
+Wire Wire Line
+	5600 1400 5600 1850
+Wire Wire Line
+	5600 1850 5600 2300
+Wire Wire Line
+	5600 2300 5600 2750
+Wire Wire Line
+	5600 2750 5350 2750
+Wire Wire Line
+	5350 2750 5350 2600
+Wire Wire Line
+	5350 2200 5350 2300
+Wire Wire Line
+	5350 2300 5600 2300
+Connection ~ 5600 2300
+Wire Wire Line
+	5350 1750 5350 1850
+Wire Wire Line
+	5350 1850 5600 1850
+Connection ~ 5600 1850
+Wire Wire Line
+	5450 1250 5450 1350
+Wire Wire Line
+	5450 1350 5850 1350
+Wire Wire Line
+	5450 1750 5450 1800
+Wire Wire Line
+	5450 1800 5850 1800
+Wire Wire Line
+	5450 2200 5450 2250
+Wire Wire Line
+	5450 2250 5850 2250
+Wire Wire Line
+	5450 2600 5450 2650
+Wire Wire Line
+	5450 2650 5850 2650
+Wire Wire Line
+	5600 1000 6200 1000
+Connection ~ 5600 1400
+Wire Wire Line
+	6900 1250 6800 1250
+Wire Wire Line
+	6800 1250 6800 1850
+Wire Wire Line
+	6800 1850 6800 2300
+Wire Wire Line
+	6800 2300 6800 2700
+Wire Wire Line
+	6800 2700 6800 2850
+Wire Wire Line
+	6900 2600 6900 2700
+Wire Wire Line
+	6900 2700 6800 2700
+Connection ~ 6800 2700
+Wire Wire Line
+	6900 2200 6900 2300
+Wire Wire Line
+	6900 2300 6800 2300
+Connection ~ 6800 2300
+Wire Wire Line
+	6900 1750 6900 1850
+Wire Wire Line
+	6900 1850 6800 1850
+Connection ~ 6800 1850
+Wire Wire Line
+	7000 1250 7000 1400
+Wire Wire Line
+	7250 1400 7000 1400
+Wire Wire Line
+	7250 1000 7250 1150
+Wire Wire Line
+	7250 1150 7250 1400
+Wire Wire Line
+	7250 1400 7250 1850
+Wire Wire Line
+	7250 1850 7250 2300
+Wire Wire Line
+	7250 2300 7250 2750
+Wire Wire Line
+	7250 2750 7000 2750
+Wire Wire Line
+	7000 2750 7000 2600
+Wire Wire Line
+	7000 2200 7000 2300
+Wire Wire Line
+	7000 2300 7250 2300
+Connection ~ 7250 2300
+Wire Wire Line
+	7000 1750 7000 1850
+Wire Wire Line
+	7000 1850 7250 1850
+Connection ~ 7250 1850
+Wire Wire Line
+	7100 1250 7100 1350
+Wire Wire Line
+	7100 1350 7500 1350
+Wire Wire Line
+	7100 1750 7100 1800
+Wire Wire Line
+	7100 1800 7500 1800
+Wire Wire Line
+	7100 2200 7100 2250
+Wire Wire Line
+	7100 2250 7500 2250
+Wire Wire Line
+	7100 2600 7100 2650
+Wire Wire Line
+	7100 2650 7500 2650
+Wire Wire Line
+	7250 1000 7850 1000
+Connection ~ 7250 1400
+Wire Wire Line
+	7700 1650 7700 1600
+Wire Wire Line
+	7700 1200 7700 1150
+Wire Wire Line
+	7700 1150 7250 1150
+Connection ~ 7250 1150
+Wire Wire Line
+	6100 1700 6100 1650
+Wire Wire Line
+	6100 1250 6100 1150
+Wire Wire Line
+	6100 1150 5600 1150
+Connection ~ 5600 1150
+$EndSCHEMATC
