@@ -1,4 +1,4 @@
-update=Mon 10 Mar 2014 17:21:28 CET
+update=Tue 11 Mar 2014 22:44:42 CET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -86,3 +86,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/def/Dropbox/Share/Kicad/monolito-1.2/Monolito-1_2
 LibName32=/home/def/Dropbox/Share/Kicad/Atmel2/atmel
+LibName33=/home/def/Documentos/University/TFG/Hardware/SkymegaSMD/mic5205
