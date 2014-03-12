@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 11 Mar 2014 23:06:10 CET
+EESchema Schematic File Version 2  date Wed 12 Mar 2014 14:01:58 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Skymega-SMD"
-Date "11 mar 2014"
+Date "12 mar 2014"
 Rev "0.1"
 Comp "David Estévez Fernández"
 Comment1 ""
@@ -161,28 +161,6 @@ F 1 "OSHW-LOGO" H 6600 7703 60  0001 C CNN
 F 2 "" H 6600 7400 60  0001 C CNN
 F 3 "" H 6600 7400 60  0001 C CNN
 	1    6600 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L H3X2-PINS-DOC H_DOC2
-U 1 1 531F19A5
-P 10300 1700
-F 0 "H_DOC2" H 10650 1610 60  0001 C CNN
-F 1 "H3X2-PINS-DOC" H 10630 1510 60  0001 C CNN
-F 2 "" H 10300 1700 60  0001 C CNN
-F 3 "" H 10300 1700 60  0001 C CNN
-	1    10300 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L ICSP_HEADER H_DOC1
-U 1 1 531F19AB
-P 10300 1200
-F 0 "H_DOC1" H 10650 1110 60  0001 C CNN
-F 1 "ICSP_HEADER" H 10630 1010 60  0001 C CNN
-F 2 "" H 10300 1200 60  0001 C CNN
-F 3 "" H 10300 1200 60  0001 C CNN
-	1    10300 1200
 	1    0    0    -1  
 $EndComp
 Text Notes 8100 850  0    60   ~ 0
@@ -605,9 +583,9 @@ Text Label 4900 1350 2    60   ~ 0
 D9
 Text Label 4900 1450 2    60   ~ 0
 D10
-Text Label 4900 1550 2    60   ~ 0
+Text Label 4650 1550 2    60   ~ 0
 MOSI
-Text Label 4900 1650 2    60   ~ 0
+Text Label 4650 1650 2    60   ~ 0
 MISO
 Text Label 4650 1750 2    60   ~ 0
 SCK
@@ -687,17 +665,6 @@ F 1 "JP_4" H 7600 2540 60  0001 C CNN
 F 2 "" H 7450 2600 60  0000 C CNN
 F 3 "" H 7450 2600 60  0000 C CNN
 	1    7450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L I2C_DOC DOC1
-U 1 1 531F809E
-P 3500 7500
-F 0 "DOC1" H 3650 7900 60  0001 C CNN
-F 1 "I2C_DOC" H 3650 7400 60  0001 C CNN
-F 2 "" H 3500 7500 60  0000 C CNN
-F 3 "" H 3500 7500 60  0000 C CNN
-	1    3500 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1645,6 +1612,73 @@ F 1 "VCC" H 1000 5000 30  0000 C CNN
 F 2 "" H 1000 4900 60  0000 C CNN
 F 3 "" H 1000 4900 60  0000 C CNN
 	1    1000 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 5500
+Connection ~ 8000 5450
+Text Label 4900 1550 2    60   ~ 0
+D11
+Text Label 4900 1650 2    60   ~ 0
+D12
+Wire Wire Line
+	6450 6200 6150 6200
+Wire Wire Line
+	6450 6300 6150 6300
+Wire Wire Line
+	6450 6400 6150 6400
+Text Label 6150 6200 0    60   ~ 0
+D5
+Text Label 6150 6300 0    60   ~ 0
+D6
+Text Label 6150 6400 0    60   ~ 0
+D7
+$Comp
+L CONN_2 P1
+U 1 1 53204DBE
+P 6800 5450
+F 0 "P1" V 6750 5450 40  0000 C CNN
+F 1 "CONN_2" V 6850 5450 40  0000 C CNN
+F 2 "~" H 6800 5450 60  0000 C CNN
+F 3 "~" H 6800 5450 60  0000 C CNN
+	1    6800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 53204DDF
+P 6800 5850
+F 0 "P2" V 6750 5850 40  0000 C CNN
+F 1 "CONN_2" V 6850 5850 40  0000 C CNN
+F 2 "~" H 6800 5850 60  0000 C CNN
+F 3 "~" H 6800 5850 60  0000 C CNN
+	1    6800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5350 6150 5350
+Wire Wire Line
+	6450 5550 6150 5550
+Text Label 6150 5350 0    60   ~ 0
+A6
+Text Label 6150 5550 0    60   ~ 0
+A7
+Wire Wire Line
+	6450 5750 6150 5750
+Wire Wire Line
+	6450 5950 6150 5950
+Text Label 6150 5750 0    60   ~ 0
+D3
+Text Label 6150 5950 0    60   ~ 0
+D4
+$Comp
+L CONN_3 K1
+U 1 1 53205012
+P 6800 6300
+F 0 "K1" V 6750 6300 50  0000 C CNN
+F 1 "CONN_3" V 6850 6300 40  0000 C CNN
+F 2 "~" H 6800 6300 60  0000 C CNN
+F 3 "~" H 6800 6300 60  0000 C CNN
+	1    6800 6300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
