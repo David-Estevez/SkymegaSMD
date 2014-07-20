@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 12 Mar 2014 14:01:52 CET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dom 20 jul 2014 17:45:20 CEST
 
 BeginCmp
 TimeStamp = /531F8085;
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /531F94BB;
 Reference = U1;
 ValeurCmp = MIC5205;
-IdModule  = hebi_SOT-223-5;
+IdModule  = hebi_power-SOT-23-5;
 EndCmp
 
 BeginCmp
